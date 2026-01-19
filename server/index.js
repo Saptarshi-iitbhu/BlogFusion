@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://your-vercel-app.vercel.app'], // Add your Vercel app URL here
+    origin: ['http://localhost:5173', 'https://blog-fusion-kwfn-aeg2125ju-saptos-projects.vercel.app'], // Add your Vercel app URL here
     credentials: true
 }));
 app.use(cookieParser());
