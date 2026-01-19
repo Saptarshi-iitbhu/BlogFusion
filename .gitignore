@@ -1,0 +1,58 @@
+# =========================
+# Node.js (Backend - server)
+# =========================
+server/node_modules/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/pnpm-debug.log*
+
+# Environment variables
+server/.env
+server/.env.*
+
+# Uploads (user-generated files)
+server/uploads/
+
+# =========================
+# React (Frontend - client)
+# =========================
+client/node_modules/
+client/build/
+client/dist/
+client/.cache/
+
+# Environment variables
+client/.env
+client/.env.*
+client/.eslintcache
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Optional (uncomment if needed)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
